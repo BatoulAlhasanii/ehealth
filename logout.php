@@ -7,7 +7,7 @@ session_unset($_SESSION["Authorized"]);
 session_unset($_SESSION["UserType"]);
 $_SESSION = array();
 session_destroy();
-//Helooooo
+//Helooooo logout.php
 header("Location: http://localhost/ehealth/index.php");
 exit;
 ?>
